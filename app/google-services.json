@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1052973841844",
+    "project_id": "tvseriesnelson",
+    "storage_bucket": "tvseriesnelson.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052973841844:android:2da83f35b10e817aa2c6e1",
+        "android_client_info": {
+          "package_name": "com.example.tvseries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052973841844-hinm3s7h4vcsjvk8vm7pkoo441v95l9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf2FYBcA82AqNaT98ReuIjxeZhiUs1xVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052973841844-hinm3s7h4vcsjvk8vm7pkoo441v95l9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
