@@ -13,6 +13,7 @@ import com.example.tvseries.R
 import com.example.tvseries.RecyclerListSeries
 import com.example.tvseries.database.AppUtil
 import com.example.tvseries.database.SeriesFirestoreDao
+import com.example.tvseries.database.UsuarioFirebaseDao
 import kotlinx.android.synthetic.main.list_fragment.*
 
 class ListFragment : Fragment() {
@@ -24,7 +25,7 @@ class ListFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
 
-        //verificarUsuario()
+        verificarUsuario()
 
         val view =  inflater.inflate(R.layout.list_fragment, container, false)
 
@@ -53,9 +54,9 @@ class ListFragment : Fragment() {
         }
     }
 
-//    fun verificarUsuario(){
-//        if (UsuarioFirebaseDao.firebaseAuth.currentUser == null)
-//            findNavController().popBackStack()
-//    }
+    fun verificarUsuario(){
+        if (UsuarioFirebaseDao.firebaseAuth.currentUser == null)
+            findNavController().popBackStack()
+    }
 
 }

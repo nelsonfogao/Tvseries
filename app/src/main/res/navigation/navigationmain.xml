@@ -21,7 +21,7 @@
         tools:layout="@layout/form_series_fragment" />
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.tvseries.LoginFragment"
+        android:name="com.example.tvseries.ui.usuario.login.LoginFragment"
         android:label="login_fragment"
         tools:layout="@layout/login_fragment" >
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/cadastroFragment"
-        android:name="com.example.tvseries.CadastroFragment"
+        android:name="com.example.tvseries.ui.usuario.cadastro.CadastroFragment"
         android:label="cadastro_fragment"
         tools:layout="@layout/cadastro_fragment" />
 </navigation>
